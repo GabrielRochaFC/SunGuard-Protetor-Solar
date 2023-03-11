@@ -1,0 +1,16 @@
+.header{
+    /* align-items: center; */
+    background-color: var(--primary-color);
+    border-bottom: 0.25rem solid var(--accent-color);
+    border-radius: 0rem 0rem 1rem 1rem;
+    color: var(--secondary-color);
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 2rem 0rem;
+}
+
+.header--flex{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

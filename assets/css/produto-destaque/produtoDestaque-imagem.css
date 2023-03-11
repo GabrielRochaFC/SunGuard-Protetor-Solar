@@ -1,0 +1,5 @@
+.produto-destaque__imagem{
+    width: 43.75rem;
+    border-radius: 1rem;
+    grid-row: span 2;
+}

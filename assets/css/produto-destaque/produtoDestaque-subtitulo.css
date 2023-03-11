@@ -1,0 +1,4 @@
+.produto-destaque__subtitulo{
+    grid-column: span 2;
+    text-transform: capitalize;
+}

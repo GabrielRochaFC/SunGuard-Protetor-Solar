@@ -1,0 +1,5 @@
+.produto-destaque{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 2rem;
+}

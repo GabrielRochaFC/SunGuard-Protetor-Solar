@@ -1,0 +1,6 @@
+.menu__li{
+    padding-left: 2rem;
+}
+.menu__li:first-child{
+    padding-left: 0rem;
+}

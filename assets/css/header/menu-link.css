@@ -1,0 +1,6 @@
+.menu__link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 1.125rem;
+}

@@ -1,0 +1,41 @@
+/* Inclui a fonte Open Sans em sua página */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Importando os outros CSS */
+
+@import url(header/header-logo.css); 
+@import url(header/header-menu.css); 
+@import url(header/header.css); 
+@import url(header/menu-li.css); 
+@import url(header/menu-link.css); 
+@import url(header/menu-lista.css);
+@import url(main.css);
+@import url(produto-destaque/produto-destaque.css);
+@import url(produto-destaque/produtoDestaque-botao.css);
+@import url(produto-destaque/produtoDestaque-citacao.css);
+@import url(produto-destaque/produtoDestaque-imagem.css);
+@import url(produto-destaque/produtoDestaque-paragrafo.css);
+@import url(produto-destaque/produtoDestaque-titulo.css);
+@import url(produto-destaque/produtoDestaque-subtitulo.css);
+
+:root {
+    --primary-color: #ff7f00; /* cor principal, um tom de laranja */
+    --secondary-color: #ffffff; /* cor secundária, branco */
+    --accent-color: #0077be; /* cor de destaque, um tom de azul claro */
+    --text-color: #333333; /* cor do texto, cinza escuro */
+    --background-color: #f4f4f4; /* cor de fundo da página, cinza claro */
+    --cta-color: #ff4f4f; /* cor do botão de chamada à ação, um tom de vermelho */
+  }
+
+/* Define a fonte padrão para todo o documento */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+/* cria o container */
+.container{
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+}
